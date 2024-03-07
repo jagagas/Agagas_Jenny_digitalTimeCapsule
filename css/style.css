@@ -1,0 +1,53 @@
+.gifJenny {
+  float: left;
+  margin: 60px auto;
+}
+
+.gifAgagas {
+  float: right;
+}
+
+.myBio {
+  margin: 60px auto;
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Trebuchet MS';
+  background-color: #e7a74d;
+}
+
+/* Navigation */
+ul {
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #48aaf9;
+  list-style-type: none;
+}
+
+li a {
+  display: inline;
+  color: white;
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(238, 137, 36);
+}
+
+/* Body */
+body {
+  background-color: rgb(255, 250, 236);
+}
+
+footer {
+  background-color: #48aaf9;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}

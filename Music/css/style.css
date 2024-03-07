@@ -1,0 +1,63 @@
+ul {
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #48aaf9;
+  list-style-type: none;
+}
+
+li a {
+  display: inline;
+  color: white;
+  font-family: 'Trebuchet MS';
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(238, 137, 36);
+}
+
+body {
+  background-color: rgb(255, 229, 203);
+}
+
+.music {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.music iframe {
+  width: 100%;
+}
+
+footer {
+  background-color: #48aaf9;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.spotify {
+  color: green;
+  font-family: 'Trebuchet MS';
+}
+
+h3 {
+  font-family: 'Trebuchet MS';
+}
+
+p {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS';
+}
+
+.textbox {
+  width: 500px;
+  height: 100px;
+
+}
