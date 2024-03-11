@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 ul {
@@ -31,8 +30,10 @@ body {
   background-color: rgb(255, 229, 203);
 }
 
-h1.fbm,
-h1.dpop {
+.fbm {
+  text-decoration-line: underline;
+  color: blue;
+  padding-top: 20px;
   text-align: left;
   margin-left: 30px;
   font-size: xx-large;
@@ -40,13 +41,14 @@ h1.dpop {
   text-transform: uppercase;
 }
 
-h1.fbm {
-  color: blue;
-  padding-top: 20px;
-}
-
-h1.dpop {
+.dpop {
+  text-decoration-line: underline;
   color: red;
+  text-align: left;
+  margin-left: 30px;
+  font-size: xx-large;
+  font-family: 'Trebuchet MS';
+  text-transform: uppercase;
 }
 
 h2 {
@@ -86,7 +88,7 @@ img {
 }
 
 p {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(233, 245, 255);
   padding: 10px;
   text-align: left;
   font-family: 'Trebuchet MS';
