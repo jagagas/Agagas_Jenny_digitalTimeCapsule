@@ -1,33 +1,20 @@
-.gifJenny {
-  float: left;
-  margin: 60px auto;
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;	
 }
 
-.gifAgagas {
-  float: right;
-}
-
-.myBio {
-  margin: 60px auto;
-  width: 30%;
-  padding: 30px;
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Trebuchet MS';
-  background-color: #e7a74d;
-}
-
-/* Navigation */
 ul {
-  margin: 0;
-  padding: 20px;
+  font-size: large;
+  font-weight: bold;
+  padding: 30px;
   overflow: hidden;
   background-color: #48aaf9;
   list-style-type: none;
 }
 
 li a {
-  display: inline;
   color: white;
   font-family: 'Trebuchet MS';
   text-align: center;
@@ -39,15 +26,58 @@ li a:hover {
   background-color: rgb(238, 137, 36);
 }
 
-/* Body */
+
+.cover {
+  padding-top: 50px;
+  margin: auto;
+  display: grid;
+  grid-auto-flow: column;
+  align-content: center;
+  justify-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.img {
+  width: 450px;
+}
+
+.textbox {
+  font-size: large;
+  background-color: rgb(255, 155, 15);
+  display: flex;
+  width: 500px;
+  padding: 50px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  font-family: 'Trebuchet MS';
+  border-radius: 10px;
+  align-items: center;
+}
+
 body {
-  background-color: rgb(255, 250, 236);
+  background-color: rgb(255, 229, 203);
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   background-color: #48aaf9;
-  color: white;
   text-align: center;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Trebuchet MS';
+  text-transform: uppercase;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: orange;
 }
