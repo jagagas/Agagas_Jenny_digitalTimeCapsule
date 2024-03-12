@@ -27,7 +27,11 @@ li a:hover {
 }
 
 body {
-  background-color: rgb(255, 229, 203);
+  background-image: url(../img/mehalftone.png);
+  background-position: leftt;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-color: rgba(125, 122, 118, 0.2);
 }
 
 h1 {
@@ -41,6 +45,7 @@ h1 {
 }
 
 .music {
+  gap: 10px;
   margin: auto;
   margin-bottom: 20px;
   max-width: 900px;
@@ -60,21 +65,20 @@ h2 {
   font-family: 'Trebuchet MS';
 }
 
-p {
-  background-color: rgb(233, 245, 255);
-  font-family: 'Trebuchet MS';
-  border-radius: 10px;
-  padding: 20px;
-}
 
 .textbox {
   font-size: large;
   font-family: 'Trebuchet MS';
-  width: 900px;
+  width: 860px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  border-radius: 10px;
+  background-color: rgb(233, 245, 255);
+  font-family: 'Trebuchet MS';
+  padding: 20px;
+
 }
 
 .spotifysect {

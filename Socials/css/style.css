@@ -5,6 +5,7 @@
 	
 }
 
+
 ul {
   font-size: large;
   font-weight: bold;
@@ -26,20 +27,16 @@ li a:hover {
   background-color: rgb(238, 137, 36);
 }
 
+
+  
 body {
-  background-color: rgb(255, 229, 203);
+  background-image: url(../img/mehalftone.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-color: rgba(125, 122, 118, 0.2);  
 }
 
-.insta{
-  text-decoration-line: underline;
-  padding-top: 20px;
-  margin-left: 30px;
-  font-size: xx-large;
-  font-family: 'Trebuchet MS';
-
-  color: rgb(147, 12, 135);
-  text-transform: uppercase;
-}
 
 .pinterest{
   text-decoration-line: underline;
@@ -55,14 +52,6 @@ h2 {
   font-family: 'Trebuchet MS';
 }
 
-p {
-  background-color: rgb(233, 245, 255);
-  text-align: left;
-  font-family: 'Trebuchet MS';
-  border-radius: 10px;
-  padding: 20px;
-}
-
 img {
   width: 250px;
   margin: 5px;
@@ -70,9 +59,15 @@ img {
 }
 
 .textbox {
+  background-color: aliceblue;
   margin: auto;
   width: 600px;
   font-size: large;
+  text-align: left;
+  font-family: 'Trebuchet MS';
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
 }
 
 .igsect {
@@ -100,8 +95,8 @@ img {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-}
 
+}
 .nails, .fash, .ig {
   margin: auto;
   display: grid;
