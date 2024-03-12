@@ -28,7 +28,7 @@ li a:hover {
 
 body {
   background-image: url(../img/mehalftone.png);
-  background-position: leftt;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: 200%;
   background-color: rgba(125, 122, 118, 0.2);
@@ -76,7 +76,6 @@ h2 {
   margin: auto;
   border-radius: 10px;
   background-color: rgb(233, 245, 255);
-  font-family: 'Trebuchet MS';
   padding: 20px;
 
 }

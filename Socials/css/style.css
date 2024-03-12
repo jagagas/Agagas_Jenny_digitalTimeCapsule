@@ -1,10 +1,7 @@
-
 * {
 	margin:0;
-	padding:0;
-	
+	padding:0;	
 }
-
 
 ul {
   font-size: large;
@@ -26,8 +23,6 @@ li a {
 li a:hover {
   background-color: rgb(238, 137, 36);
 }
-
-
   
 body {
   background-image: url(../img/mehalftone.png);
@@ -36,7 +31,6 @@ body {
   background-size: 300%;
   background-color: rgba(125, 122, 118, 0.2);  
 }
-
 
 .pinterest{
   text-decoration-line: underline;
